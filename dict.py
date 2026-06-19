@@ -1,0 +1,13 @@
+d1={1:"rajini",
+    2:"nithya",
+    3:"kaveri"}
+print(d1.keys())
+print(d1.values())
+print(d1.items())
+print(d1.popitem())
+d1.update({2:'sri'})
+print(d1)
+print(d1.get(1))
+print(d1.pop(1))
+d1.update({1:'potti'})
+print(d1)
